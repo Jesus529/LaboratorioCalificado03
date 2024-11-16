@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ffffff"/>
+    <corners android:radius="60dp"/> <!-- Asegura un círculo perfecto -->
+    <stroke android:color="#4c6ef5" android:width="4dp"/> <!-- Borde azul -->
+</shape>

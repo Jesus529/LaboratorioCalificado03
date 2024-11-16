@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#f5f5f5"
+    android:gravity="center_vertical">
+
+    <!-- Título de la lista de profesores -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de Profesores"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333"
+        android:paddingBottom="16dp"
+        android:layout_gravity="center" />
+
+    <!-- Profesor 1 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/selector_background"
+        android:elevation="2dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/teacherImageView1"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/contacto" /> <!-- Imagen de Victor Alejandro -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/teacherNameTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Victor Alejandro Saico Justo"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <TextView
+                android:id="@+id/teacherPhoneTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+51 925137361"
+                android:textSize="14sp"
+                android:textColor="#555"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <TextView
+                android:id="@+id/teacherEmailTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="vsaico@tecsup.edu.pe"
+                android:textSize="14sp"
+                android:textColor="#555"
+                android:maxLines="1"
+                android:ellipsize="end" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Profesor 2 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/selector_background"
+        android:elevation="2dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/teacherImageView2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/contacto" /> <!-- Imagen de Linder Hassinger -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/teacherNameTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Linder Hassinger Saico Justo"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <TextView
+                android:id="@+id/teacherPhoneTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+51 925137362"
+                android:textSize="14sp"
+                android:textColor="#555"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <TextView
+                android:id="@+id/teacherEmailTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lhassinger@tecsup.edu.pe"
+                android:textSize="14sp"
+                android:textColor="#555"
+                android:maxLines="1"
+                android:ellipsize="end" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Profesor 3 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/teacherImageView3"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginEnd="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/contacto" /> <!-- Imagen de Jaime Gomez -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/teacherNameTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jaime Gomez"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/teacherPhoneTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+51 925137363"
+                android:textSize="14sp"
+                android:textColor="#555" />
+
+            <TextView
+                android:id="@+id/teacherEmailTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jgomez@tecsup.edu.pe"
+                android:textSize="14sp"
+                android:textColor="#555" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Profesor 4 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/teacherImageView4"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginEnd="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/contacto" /> <!-- Imagen de Jaime Farfan -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/teacherNameTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jaime Farfan"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/teacherPhoneTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+51 925137364"
+                android:textSize="14sp"
+                android:textColor="#555" />
+
+            <TextView
+                android:id="@+id/teacherEmailTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jfarfan@tecsup.edu.pe"
+                android:textSize="14sp"
+                android:textColor="#555" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Profesor 5 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/teacherImageView5"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginEnd="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/contacto" /> <!-- Imagen de Juan Martinez -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/teacherNameTextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Juan Martinez"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/teacherPhoneTextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+51 925137365"
+                android:textSize="14sp"
+                android:textColor="#555" />
+
+            <TextView
+                android:id="@+id/teacherEmailTextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jmartinez@tecsup.edu.pe"
+                android:textSize="14sp"
+                android:textColor="#555" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Agregar más profesores (repite para los demás profesores) -->
+
+    <!-- Botones: los botones ahora están en un LinearLayout vertical -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        tools:ignore="ExtraText">
+
+        <Button
+            android:id="@+id/addTeacherButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar contacto profesor"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_background"
+            android:layout_marginBottom="8dp"
+            android:padding="12dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_add"  <!-- Puedes agregar un ícono aquí -->
+        <Button
+            android:id="@+id/addAnotherTeacherButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar otro contacto profesor"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_background"
+            android:layout_marginBottom="8dp"
+            android:padding="12dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_add"  <!-- Icono opcional -->
+        android:drawablePadding="8dp"
+        android:cornerRadius="12dp"
+        android:elevation="4dp"
+        android:stateListAnimator="@anim/button_selector" />
+    </LinearLayout>
+
+</LinearLayout>
